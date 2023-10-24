@@ -219,4 +219,5 @@
     "terminal.integrated.env.linux": {},
     "console-ninja.featureSet": "Community",
     "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.defaultProfile.linux": "fish",
 }
