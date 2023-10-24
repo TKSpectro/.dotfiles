@@ -1,0 +1,222 @@
+{
+    "update.mode": "manual",
+    "editor.fontFamily": "Source Code Pro for Powerline",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.fastScrollSensitivity": 3,
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "editor.smoothScrolling": true,
+    "editor.formatOnPaste": true,
+    "editor.linkedEditing": true,
+    // WHITESPACE SHOW -> boundary
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.inlineSuggest.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.renderControlCharacters": true,
+    "editor.folding": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.wordBasedSuggestions": false,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tips.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline , monospace",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.scrollback": 4000,
+    "files.exclude": {
+        "**/.git": false,
+        "**/*.git": true,
+        "**/*.meta": true
+    },
+    // "files.trimTrailingWhitespace": true,
+    "explorer.confirmDelete": false,
+    "explorer.openEditors.visible": 0,
+    "explorer.compactFolders": false,
+    "explorer.autoRevealExclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "extensions.ignoreRecommendations": true,
+    // "debug.inlineValues": "on",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": true,
+        "editor.unicodeHighlight.invisibleCharacters": true,
+        "editor.wordWrap": "on",
+        "cSpell.fixSpellingWithRenameProvider": true,
+        "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+        "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[json]": {
+        "editor.folding": true,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.inlayHints.enabled": "offUnlessPressed"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools",
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.python",
+    },
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "python.linting.enabled": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "golang.go"
+    },
+    "gopls": {
+        "ui.navigation.importShortcut": "Definition"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "csharp.referencesCodeLens.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.allowForcePush": true,
+    "git.enableSmartCommit": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.semi": true,
+    "better-comments.multilineComments": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "FIXME",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "tailwindCSS.includeLanguages": {
+        "vue": "html",
+        "typescriptreact": "html",
+        "javascriptreact": "html",
+        "html": "html"
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "cSpell.language": "en,de-de",
+    "cSpell.userWords": [
+        "firstname",
+        "Käppler",
+        "lastname",
+        "mariadb",
+        "tkspectro",
+        "trpc",
+        "Zebresel"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "rainbow_csv.autodetect_separators": [
+        "\t",
+        ",",
+        ";",
+        "|",
+        ";",
+        "\\t"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "npm.keybindingsChangedWarningShown": true,
+    "todo-tree.highlights.enabled": false,
+    "codesnap.showWindowControls": false,
+    "codesnap.transparentBackground": true,
+    "codesnap.shutterAction": "copy",
+    "terminal.integrated.env.linux": {},
+    "console-ninja.featureSet": "Community",
+    "git.openRepositoryInParentFolders": "never",
+}
