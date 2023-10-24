@@ -1,2 +1,30 @@
-
 nvim/.config/nvim/lazy-lock.json
+
+code/.config/Code/Backups
+code/.config/Code/blob_storage
+code/.config/Code/Cache
+code/.config/Code/CachedData
+code/.config/Code/CachedExtensionVSIXs
+code/.config/Code/CachedProfilesData
+code/.config/Code/Code Cache
+code/.config/Code/Crashpad
+code/.config/Code/databases
+code/.config/Code/DawnCache
+code/.config/Code/Dictionaries
+code/.config/Code/GPUCache
+code/.config/Code/Local Storage
+code/.config/Code/logs
+code/.config/Code/Service Worker
+code/.config/Code/Session Storage
+code/.config/Code/User/globalStorage
+code/.config/Code/User/History
+code/.config/Code/User/workspaceStorage
+code/.config/Code/WebStorage
+code/.config/Code/code.lock
+code/.config/Code/Cookies
+code/.config/Code/Cookies-journal
+code/.config/Code/languagepacks.json
+code/.config/Code/machineid
+code/.config/Code/Network Persistent State
+code/.config/Code/Preferences
+code/.config/Code/TransportSecurity
