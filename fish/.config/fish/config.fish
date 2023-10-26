@@ -3,3 +3,6 @@ if status is-interactive
 end
 
 export LC_ALL=en_US.UTF-8
+
+# disable fish greeting
+set -g fish_greeting
