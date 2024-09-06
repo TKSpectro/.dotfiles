@@ -19,6 +19,10 @@ code --install-extension davidanson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension denoland.vscode-deno
 code --install-extension digitalbrainstem.javascript-ejs-support
+code --install-extension devsense.composer-php-vscode
+code --install-extension devsense.intelli-php-vscode
+code --install-extension devsense.phptools-vscode
+code --install-extension devsense.profiler-php-vscode
 code --install-extension eamodio.gitlens
 code --install-extension ecmel.vscode-html-css
 code --install-extension esbenp.prettier-vscode
@@ -55,6 +59,7 @@ code --install-extension svelte.svelte-vscode
 code --install-extension tamasfe.even-better-toml
 code --install-extension usernamehw.errorlens
 code --install-extension valentjn.vscode-ltex
+code --install-extension vitest.explorer
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wallabyjs.console-ninja
 code --install-extension yoavbls.pretty-ts-errors
