@@ -257,5 +257,6 @@
     "errorLens.alignMessage": {
         "end": 0,
         "start": 0
-    }
+    },
+    "redhat.telemetry.enabled": false
 }
