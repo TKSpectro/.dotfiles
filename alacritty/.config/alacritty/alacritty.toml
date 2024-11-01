@@ -5,6 +5,6 @@ import = ["/home/spectro/.config/alacritty/theme_one_dark.toml"]
 columns = 120
 lines = 36
 
-
-[terminal]
-shell = "/usr/bin/fish"
+[terminal.shell]
+program = "/usr/bin/fish"
+args = ["--init-command", "/usr/bin/tmux new -A -D -s main"]
