@@ -1,0 +1,10 @@
+[general]
+import = ["/home/spectro/.config/alacritty/theme_one_dark.toml"]
+
+[window.dimensions]
+columns = 120
+lines = 36
+
+
+[terminal]
+shell = "/usr/bin/fish"
