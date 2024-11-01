@@ -5,6 +5,7 @@ code/.config/Code/blob_storage
 code/.config/Code/Cache
 code/.config/Code/CachedConfigurations
 code/.config/Code/CachedData
+code/.config/Code/CachedExtensions
 code/.config/Code/CachedExtensionVSIXs
 code/.config/Code/CachedProfilesData
 code/.config/Code/Code Cache
@@ -32,6 +33,8 @@ code/.config/Code/Network Persistent State
 code/.config/Code/Preferences
 code/.config/Code/TransportSecurity
 code/.config/Code/VideoDecodeStats
+code/.config/Code/QuotaManager
+code/.config/Code/QuotaManager-journal
 
 code/.config/Code/.org.chromium.Chromium.*
 code/.config/Code/Shared*
