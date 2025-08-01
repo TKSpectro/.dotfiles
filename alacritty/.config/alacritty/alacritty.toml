@@ -9,6 +9,9 @@ lines = 36
 program = "/usr/bin/fish"
 args = ["--init-command", "/usr/bin/tmux new -A -D -s main"]
 
+[scrolling]
+history = 10000
+
 [font]
 size = 11.0
 
